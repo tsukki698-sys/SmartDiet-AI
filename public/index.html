@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>SmartDiet AI - 7-Day Healthy Eating Challenge</title>
+  <meta name="theme-color" content="#16A34A">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Noto+Sans+Thai:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="hwrap">
+      <h1>SmartDiet <b>AI</b></h1>
+      <p>7-Day Healthy Eating Challenge</p>
+    </div>
+  </header>
+  <nav id="tabs" hidden aria-label="Sections">
+    <button data-t="profile"><span aria-hidden="true">👤</span> Profile</button>
+    <button data-t="home"><span aria-hidden="true">🏠</span> Home</button>
+    <button data-t="plan"><span aria-hidden="true">🥗</span> Meal Plan</button>
+    <button data-t="photo"><span aria-hidden="true">📷</span> Photo</button>
+    <button data-t="week"><span aria-hidden="true">📊</span> Summary</button>
+  </nav>
+  <main id="app" aria-live="polite"></main>
+  <script src="app.js?v=6"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "SmartDiet AI",
+  "short_name": "SmartDiet",
+  "description": "7-Day Healthy Eating Challenge",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF4E0",
+  "theme_color": "#FFF4E0",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
